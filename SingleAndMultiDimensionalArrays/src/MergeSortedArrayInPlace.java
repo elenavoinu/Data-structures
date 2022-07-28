@@ -4,7 +4,7 @@ public class MergeSortedArrayInPlace {
         int [] nums2 = new int[] {5,6,7,8};
 
         mergeSortedArrays(nums1, nums2);
-        for(Integer num : nums1) System.out.print(num);
+        for(Integer num : nums1) System.out.print(num); //print the merged array
     }
 
     public static void mergeSortedArrays(int[] nums1, int[] nums2) {
@@ -27,9 +27,6 @@ compare num1[i] < nums2[i]
 if above condition true, add nums2[i] at the end on nums1
 num1= [1,2,3,4, 0,0,0,0]
 num2 =[5,6,7,8]
-nums2[i] = 8; 8 > 4 => nums1[7] = 8;
-*
-*
-*
-*
+result = [1,2,3,4,5,6,7,8]
+
 * */
