@@ -23,10 +23,15 @@ public class MergeSortedArrayInPlace {
     }
 }
 /*Create 2 pointers that point at the end of last element in the nums1 and nums2
-compare num1[i] < nums2[i]
-if above condition true, add nums2[i] at the end on nums1
+compare num1[nums1Pointer] < nums2[nums2Pointer]
+if above condition true, add nums2[nums2Pointer] at the end on nums1
+
 num1= [1,2,3,4, 0,0,0,0]
 num2 =[5,6,7,8]
-result = [1,2,3,4,5,6,7,8]
 
-* */
+result = [1,2,3,4, 5,6,7,8]
+
+Time complexity = O(n) where n is the number of elements in nums1
+Space = O(1) since no extra space was used
+
+*/
