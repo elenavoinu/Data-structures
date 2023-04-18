@@ -31,3 +31,4 @@ public class RearrangeSortedArray {
         System.arraycopy(result, 0, arr, 0, arr.length);
     }
 }
+// Runtime O(n); Space O(n) since we're creating a new array
