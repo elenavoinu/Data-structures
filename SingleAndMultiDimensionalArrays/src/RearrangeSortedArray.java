@@ -18,6 +18,7 @@ public class RearrangeSortedArray {
         int [] result = new int[arr.length];
 
         for(int i = 0; i < arr.length; i++) {
+         //placing the largest elements at even indices and the smallest elements at odd indices
             if(i % 2 == 0){
                 result[i] = arr[max];
                 max--;
